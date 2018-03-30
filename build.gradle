@@ -1,0 +1,17 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    testCompile("org.junit.jupiter:junit-jupiter-api:5.0.1")
+    compile 'junit:junit:4.12'
+    compile 'org.junit.jupiter:junit-jupiter-api'
+    compile 'junit:junit:4.12'
+    compile 'org.junit.jupiter:junit-jupiter-api'
+    compile 'org.junit.jupiter:junit-jupiter-api'
+}
+
+repositories {
+    jcenter()
+}
+
